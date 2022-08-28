@@ -1,0 +1,98 @@
+body{
+    font-family: monospace;
+    font-size: 16px;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    border: 1px solid black;
+    height: 100vh;
+}
+.col{
+    width: 40%;
+    height: 100vh;
+}
+.row{
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1));
+    background-position-y: center;
+    background-size: cover;
+    font-family: Georgia, 'Arial', Times, serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, );
+  transition: 0.3s;
+}
+.box:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head > h1 {
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: black;
+}
+.head > p{
+    font-family: monospace;
+    color: black;
+    padding-top: 3px;
+    text-align: center;
+}
+.logo > img {
+    border: 3px solid white;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+.Login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+}
+.inner{
+    text-align: center;
+    padding: 10px;
+}
+.inner> label{
+    font-family:sans-serif;
+    font-weight: bold;
+}
+.inner> input{
+    background: none !important;
+    
+    height: 40px;
+    width: 230px;
+     border: none;
+    border-bottom: 2px solid rgb(162, 68, 255);
+}
+.signin{
+    display: flex;
+    justify-content: space-between;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.other-option{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    justify-content: center;
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btnn:hover {
+    background: rgb(7, 1, 116);
+    background:linear-gradient(to bottom right,#9795EF,#F9C5D1); 
+    background: linear-gradient(
+      to bottom
+      #9795EF,
+#F9C5D1
+    );
+    cursor: pointer;
+  }
+
+  .btnn {
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    padding: 6px;
+    font-size: 14px;
+    color: white;
+   justify-content: center;
+  }
+
+  .result{
+      border: 1px solid rgba(0, 0,0, 0.2);
+      flex-direction: column;
+  }
+  .container .bg-primary{
+    background-color:blueviolet  !important;
+  }

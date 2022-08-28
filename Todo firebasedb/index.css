@@ -1,0 +1,16 @@
+@media screen and (max-width: 412px) {
+    .logo{
+        position: relative !important ;
+        border-top:none !important;
+        border-radius: 5px;
+        text-align: center;
+        height: 70px !important;
+    }
+    .app-info-details{
+        padding: 0;
+        padding-bottom: 15px;
+    }
+    .app-form{
+        margin-top: 15px;
+    }
+}
